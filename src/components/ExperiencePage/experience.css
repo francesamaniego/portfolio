@@ -1,0 +1,38 @@
+.exp{
+    padding: 100px 130px;
+}
+.container-exp{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    letter-spacing: 1.5px;
+    
+}
+.container-exp .education{
+    padding: 50px;
+    width: 50%;
+    border-right: .5px #fff solid;
+    text-align: right;
+    
+}
+.container-exp .work{
+    padding: 50px;
+    width: 50%;
+    border-left: .5px #fff solid;
+    text-align: left;
+}
+
+.course-holder, .job-holder{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .exp{
+        padding: 50px 0px;
+    }
+    .container-exp .education, .container-exp .work{
+        
+        letter-spacing: 0px;
+        padding: 10px;
+    }
+}

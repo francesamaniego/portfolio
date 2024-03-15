@@ -1,0 +1,49 @@
+.skill{
+    padding: 100px 130px;
+}
+.skill-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+
+}
+.skills{
+    width: 350px;
+    padding: 35px;
+    background-color: #7A818E;
+    border-radius: 25px;
+}
+.skill-title{
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+.endskills{
+    background-color: transparent;
+    display: grid;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.skillset {
+    background-color: transparent;
+    flex-direction: column;
+    text-align: center;
+}
+.skillset h1{
+    font-size: clamp(.5rem, 2.5vw, 1rem);
+}
+.skillset img{
+    background-color: transparent;
+    height: 50px;
+}
+@media screen and (max-width: 700px) {
+    .skill{
+        padding: 50px 0px;
+    }
+    .skill-holder{
+    
+    }
+   
+}

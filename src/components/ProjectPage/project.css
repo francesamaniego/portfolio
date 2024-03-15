@@ -1,0 +1,74 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 130px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 15px;
+    margin-top: 90px;
+    padding: 20px;
+    width: 400px;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #7A818E;
+    
+}
+.showAnimate{
+    transform: scale(1);  
+}
+@media (prefers-reduced-motion: no-preference) {
+    .box {
+        animation-name: example;
+        animation-duration: 1s;  
+    }
+  }
+@keyframes example {
+    0% { opacity: 0;  padding-top: 200px;}
+    100% { opacity: 1; }
+  }
+.box img, h1, p{
+    background-color: transparent;
+}
+.box img{
+    width: 300px;
+}
+.box h1{
+    font-size: 1.5rem;
+    font-size: clamp(.7rem, 2.5vw, 1.5rem);
+}
+.box p{
+    font-size: clamp(.5rem, 2.5vw, 1rem);
+    margin-bottom: 30px;
+}
+.box form{
+    background-color: transparent;
+}
+.box button a{
+    background-color: transparent;
+    background-color: aqua;
+    width: 100%;
+}
+@media screen and (max-width: 700px) {
+    .project{
+        padding: 50px;
+    }
+    .box{
+        padding: 20px;
+        width: 300px;
+        height: 100%;
+        margin-top: 50px;
+    }
+    .box img{
+        width: 150px;
+    }
+  
+}

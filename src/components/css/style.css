@@ -1,0 +1,27 @@
+@import url(../Header/header.css);
+@import url(../SectionPage/section.css);
+@import url(button.css);
+@import url(../ProjectPage/project.css);
+@import url(../AboutPage/about.css);
+@import url(../ExperiencePage/experience.css);
+@import url(../SkillPage/skill.css);
+@import url(../Footer/footer.css);
+
+*{
+    font-family:tahoma;
+    background-color: #161616;
+    color: #FFFFFF;
+}
+
+.title{
+    text-align: center;
+}
+.title h1{
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+    letter-spacing: 1.7px;
+}
+.title h3{
+    font-size: clamp(.5rem, 2.5vw, 1.5rem);
+    font-weight: 100;
+    letter-spacing: 1.2px;
+}

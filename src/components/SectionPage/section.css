@@ -1,0 +1,66 @@
+.section1{
+    height: 90vh;
+    padding: 0 130px;
+    
+}
+.intro{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.content{
+    width: 50%;
+    animation-name: example;
+    animation-duration: 1s;  
+}
+
+@keyframes example {
+    0% { opacity: 0;  padding-top: 200px;}
+    100% { opacity: 1; }
+  }
+
+.intro h1{
+    font-size: clamp(1.3rem, 2.5vw, 3rem);
+}
+
+.intro h1 a{
+    font-family:roboto;
+    font-size: clamp(2rem, 2.5vw, 3rem);
+    color: #22658F;
+    
+}
+.intro h3{
+    font-weight: 200;
+    font-size: clamp(1rem, 2.5vw, 2rem); 
+  
+}
+.intro p{
+    margin: 15px 0;
+    font-size: clamp(.5rem, 2.5vw, 1.3rem); 
+    letter-spacing: 1.5px;
+    
+}
+@media screen and (max-width: 700px) {
+    .section1{
+        height: auto;
+        padding: 50px;
+    }
+    .content{
+        width: 100%;
+    }
+    .intro{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .intro p{
+        width: 100%;
+    }
+}
