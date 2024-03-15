@@ -15,11 +15,11 @@ const AboutPage = () => {
             <div className="container">
                 <div  className="images" >
                     <div className="img1">
-                        <img data-aos="fade-up-right" src={react} alt="KALMA"/>
+                        <img data-aos="fade-up" src={react} alt="KALMA"/>
                     </div>
                 </div>
                 <div className="description-holder" >
-                    <div data-aos="fade-up-left" className="description">
+                    <div data-aos="fade-up" className="description">
                         <p >
                             My interest in Web Development/Programming stated since 2018 before I finished my senior high career. Since I'm good at designing, I thought I could expand my design skills into web development. Now I am further honing my design and web development skills by creating UI/UX using FIGMA and I will make it a responsive website using the React JS Framework.
                             <br /><br />I also have knowledge about PHP Laravel Framework when it comes to the backend and I am currently researching how to build a Web API using C#.

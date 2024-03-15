@@ -30,8 +30,8 @@ const Skill = () => {
     return (
         <section className='skill' id='skill'>
             <div className="title" id='title'>
-                <h1 data-aos="fade-right">Skills</h1>
-                <h3 data-aos="fade-left">My Technical Level</h3>
+                <h1 data-aos="fade-up">Skills</h1>
+                <h3 data-aos="fade-down">My Technical Level</h3>
             </div> 
             <div className='skill-holder'>
                 <div data-aos="fade-up" className='skills frontend'>

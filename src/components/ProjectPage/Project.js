@@ -11,12 +11,12 @@ const Project = () => {
     return (
       <section className="project" id='project'>
         <div className="title" id='title' >
-          <h1 data-aos="fade-right">
+          <h1 data-aos="fade-up">
             Portfolio</h1>
-          <h3 data-aos="fade-left">Collaborated Project</h3>
+          <h3 data-aos="fade-down">Collaborated Project</h3>
         </div>
         <div 
-          data-aos="flip-left"
+          data-aos="flip-down"
           className="box"
         >
             <img
