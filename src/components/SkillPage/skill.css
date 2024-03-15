@@ -7,10 +7,9 @@
     justify-content: center;
     margin: 20px;
     gap: 20px;
-
 }
 .skills{
-    width: 350px;
+    max-width: 350px;
     padding: 35px;
     background-color: #7A818E;
     border-radius: 25px;
@@ -39,11 +38,25 @@
     height: 50px;
 }
 @media screen and (max-width: 700px) {
+    .skill-holder{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+        gap: 20px;
+    }
     .skill{
         padding: 50px 0px;
     }
-    .skill-holder{
-    
+    .skills{
+        padding: 20px;
+        width: 250px;
     }
-   
+    .endskills{
+        background-color: transparent;
+        display: grid;
+        flex-wrap: wrap;
+        gap: 30px 10px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
 }

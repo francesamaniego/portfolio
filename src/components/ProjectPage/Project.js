@@ -19,14 +19,14 @@ const Project = () => {
           data-aos="flip-left"
           className="box"
         >
-          <img
-            data-aos="zoom-in"
-            src={KALMA} alt="KALMA" />
-          <h1>KALMA - Kalinga at Agarang Lunas Mobile Application</h1>
-          <p>This mobile application was created as a final project in our subject CAPSTONE 401.</p>
-          <form href="https://play.google.com/store/apps/details?id=com.kalma.capstonev12">
-          <input  className="btn btn-s" type="submit" value="Visit" target="_blank" />
-          </form>
+            <img
+              data-aos="zoom-in"
+              src={KALMA} alt="KALMA" />
+            <h1>KALMA - Kalinga at Agarang Lunas Mobile Application</h1>
+            <p>This mobile application was created as a final project in our subject CAPSTONE 401.</p>
+            <form href="https://play.google.com/store/apps/details?id=com.kalma.capstonev12">
+            <input  className="btn btn-s" type="submit" value="Visit" target="_blank" />
+            </form>
           </div>
       </section>
     )
