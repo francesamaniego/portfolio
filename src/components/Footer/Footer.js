@@ -11,7 +11,7 @@ const Footer = () => {
   }, [])
   return (
     <footer className="footer" id="footer">
-      <div data-aos="fade-right" className="footer-holder">
+      <div data-aos="fade-down" className="footer-holder">
         <h1 >Get in Touch</h1>
         <h3 >I’m currently looking for any new opportunities, my inbox is always open.</h3>
         <form action="mailto:francesamaniego21@gmail.com">
